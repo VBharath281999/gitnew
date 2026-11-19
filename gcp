@@ -1,0 +1,13 @@
+How to connect
+1. Open an SSH client
+
+2. Locate or download your private key file
+
+3. Ensure your key is not publicly viewable
+
+chmod 400 "pavan.pem"
+
+4. Connect to your instance using its Public DNS
+
+ssh -i "pavan.pem" ec2-user@ec2-54-208-5-105.compute-1.amazonaws.com
+
