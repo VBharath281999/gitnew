@@ -11,3 +11,4 @@ chmod 400 "pavan.pem"
 
 ssh -i "pavan.pem" ec2-user@ec2-54-208-5-105.compute-1.amazonaws.com
 16762b0478fedf58d1ddc702ad9f219244beb843
+i
